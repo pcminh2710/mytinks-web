@@ -233,7 +233,7 @@ body {
     width: 100%;
     height: calc(100% - 61px);
 }
-
+/* Thông tin cá nhân */
 .create-profile {
     display: flex;
     flex-direction: column;
@@ -245,55 +245,66 @@ body {
     max-height: calc(100vh - 61px);
     overflow-y: scroll;
 }
-.create-profile p {
+ .create-profile p {
     width: 95%;
     font-weight: bold;
     font-size: 20px;
   
     
 }
+
+
 .profile-list{
     margin: 15px ;
     width: 95%;
-    height: 80%;
     border-radius: 5px;
     background-color: white;
 }
-.profile-img {
+
+ .profile-img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     margin: 25px 25px;
 }
+
+
 .form-upload {
-    display: block;
-   margin:-100px 150px;
-   padding: 15px;
-   width: 30%;
+   
+  display: block;
+  margin-top: -100px ;
+  margin-left: 200px;
+   padding: 10px 20px;
    background-color: #3399ff;
    border-radius: 10px;
    border: none;
+   
 
-}
+} 
+
 .form-remove-img {
-    margin: 55px 400px;
-    padding: 15px;
+    display: block;
+    margin-top: -35px;
+    margin-left: 400px;
+    padding: 10px 43px;
     border-radius: 10px;
     border: none;
-    width: 30%;
+    
 }
+
+
 .profile-title h {
     display: block;
     font-size: 12px;
     margin-left: 20px;
-    margin-top: -20px;
+    margin-top: 70px;
     color: rgb(184, 179, 179);
 }
 .profile-title hr {
      display: block;
+     width: 95%;
      margin-left: auto;
      margin-right: auto;
-     width: 95%;
      margin-top: -10px;
 }
 .form-profile_title{
@@ -302,7 +313,7 @@ body {
     border: none;
     font-size: 15px;
     padding: 10px;
-    width: 95%;
+   
 
 }
 .profile-title spam {
@@ -313,21 +324,43 @@ body {
     margin-left:  20px;
 }
 .form-textarea {
-    padding-top: 5px;
-    width: 95%; 
-    
+    padding-top: 5px;  
     display: block;
     outline: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    width: 95%;
     font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+ 
+
+
+} 
+/* Theme */
+.theme-list {
+    background-color: white;
+    width: 95%;
     border-radius: 5px;
 
 
-
 }
-
+.img-theme {
+    width: 130px;
+    height: 200px;
+    margin:20px 39px;
+   
+    border-radius: 20px;
+}
+.create-profile h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
 
 
 
