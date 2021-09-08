@@ -8,3 +8,5 @@ function myFunction() {
       alert("Bạn chưa chấp nhận điều khoản");
     }
   }
+
+  
